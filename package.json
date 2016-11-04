@@ -6,11 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies":{
-  	"express":"*",
-  	"body-parser":"*",
-  	"mongoose":"*"
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "mongoose": "*"
   },
   "author": "Anthony lauw",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonylauw/SGHolidayAPI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anthonylauw/SGHolidayAPI/issues"
+  },
+  "homepage": "https://github.com/anthonylauw/SGHolidayAPI#readme"
 }
