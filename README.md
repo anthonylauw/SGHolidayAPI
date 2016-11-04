@@ -1,9 +1,7 @@
 ## SG Public Holiday API ##
 
 
-**SG Public Holiday API** is a simple web application which includes and Express RESTful API server and a front end in AngularJS
-
-Simple Web application develop using MEAN Stack technology ,MongoDB, Express Js, Front end in AngularJS,  RESTful API server with Node js 
+**SG Public Holiday API** is  a Simple Web application develop using MEAN Stack technology ,MongoDB, Express Js, Front end in AngularJS,  RESTful API server with Node js 
 
 to retrieve a list of Public holidays in singapore , simply make a GET request to /api/holiday
 
