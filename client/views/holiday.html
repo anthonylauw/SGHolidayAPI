@@ -1,0 +1,46 @@
+ 
+<style type="text/css">
+  .bordergradient {
+
+border: 1;
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+padding: 5px 5px 5px 15px;
+ 
+}
+
+</style>
+
+
+<div class="panel panel-default" ng-init="getHolidays()">
+  <div class="panel-heading">
+    <h3 class="panel-title">Singapore public Holiday 2017</h3>
+  </div>
+  <div class="panel-body">
+   
+    	<div ng-repeat="holiday in holidays">
+    
+          <div class="row bordergradient"   >
+            <div class="col-md-2"><b>{{holiday.hdate| date:'dd-MMM-yyyy'}}</b></div>
+            <div class="col-md-2"><b>{{holiday.day}}</b></div>
+            <div class="col-md-1"><img class="thumbnail" src="{{holiday.icon_url}}"></div>
+            <div class="col-md-4">
+              <b>{{holiday.title}}</b>
+              <p>{{holiday.description}}</p>
+            </div>
+            <div class="col-md-4">
+        
+              <a href="#/holidays/edit/{{holiday._id}}">Edit</a> |  <a href="#">Delete</a>
+             <!--
+           <a href="#/holidays/edit/{{holiday._id}}">Edit</a> |  <a href="#" ng-click="removeHoliday(holiday._id)">Delete</a>
+             <!--
+             -->
+
+            </div>
+
+          </div>
+
+    	</div>
+    
+  </div>
+</div>
