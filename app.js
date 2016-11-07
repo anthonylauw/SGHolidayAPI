@@ -21,19 +21,9 @@ Info =require('./models/info');
 mongoose.Promise = global.Promise;
 
 // Connect to Mongoose
-<<<<<<< HEAD
 mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/sgholiday')
-=======
-
-//production
-mongoose.connect(process.env.MONGOLAB_URI)
->>>>>>> origin/master
   .then(() =>  console.log('connection succesful'))
   .catch((err) => console.error(err));
-//local
-//mongoose.connect('mongodb://localhost/sgholiday')
- // .then(() =>  console.log('connection succesful'))
- // .catch((err) => console.error(err));
 
 var db = mongoose.connection;
 
