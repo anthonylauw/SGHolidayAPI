@@ -5,6 +5,9 @@
 
 to retrieve a list of Public holidays in singapore , simply make a GET request to /api/holiday
 
+Demo:
+https://sgholiday.herokuapp.com/#/
+
 ## Usage ##
 Just clone or download and run **npm install** and then **node app** to start
 
